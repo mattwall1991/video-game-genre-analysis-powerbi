@@ -30,17 +30,19 @@ Role-Playing games provide the best balance of steady growth and stability, whil
 
 ![Detailed Insights](images/dashboard_insights.png)
 
-## 📂 Data Preparation
+## 📂 Data Preparation & Processing
 
-The dataset was cleaned and prepared prior to visualization.
+Data was prepared using SQL (DuckDB) to create a structured analytical dataset.
 
 Key steps included:
-- Standardizing column formats and data types
-- Extracting release year from date fields
-- Ensuring numeric consistency across regional and global sales
-- Removing or handling missing values where necessary
+- Loading and validating raw data
+- Cleaning and filtering incomplete records
+- Aggregating sales by genre and year
+- Calculating time-series metrics (YoY growth, rolling averages)
+- Generating summary metrics including volatility and performance scorecards
 
 The cleaned dataset is included in the `/data` folder.
+The full SQL workflow is available in the `/sql` folder.
 
 ## 🛠 Tools Used
 
