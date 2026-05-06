@@ -30,6 +30,18 @@ Role-Playing games provide the best balance of steady growth and stability, whil
 
 ![Detailed Insights](images/dashboard_insights.png)
 
+## 📂 Data Preparation
+
+The dataset was cleaned and prepared prior to visualization.
+
+Key steps included:
+- Standardizing column formats and data types
+- Extracting release year from date fields
+- Ensuring numeric consistency across regional and global sales
+- Removing or handling missing values where necessary
+
+The cleaned dataset is included in the `/data` folder.
+
 ## 🛠 Tools Used
 
 - Power BI
